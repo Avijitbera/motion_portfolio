@@ -39,6 +39,7 @@ try{
       setIsSending(false);
     }
   } catch (error) {
+    console.log(error);
     toast.error("Failed to send message. Please try again later.");
     setIsSending(false);
   }
