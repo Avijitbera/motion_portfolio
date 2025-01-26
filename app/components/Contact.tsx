@@ -22,8 +22,8 @@ export default function Contact() {
     const userID = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 try{
     const emailParams = {
-      name: name,
-      email: email,
+      to_name: name,
+      from_name: email,
       message: message,
       help:help
     };
