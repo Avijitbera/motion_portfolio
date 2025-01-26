@@ -5,14 +5,10 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 import {
-  // Blocks,
-  // Box,
-  Browser,
-  // Code2,
+  
   Database,
   FileJson,
-  Flask,
-  Git,
+  
   Globe,
   Layout,
   Layers,
